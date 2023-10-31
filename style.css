@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #F6F1EE;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #186F65;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #186F65;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #005B41;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #005B41;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background 0.2s;
+    text-transform: uppercase;
+}
+
+.cta-button:hover {
+    background: #186F65;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.passions, .social {
+    margin: 40px;
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+i {
+    margin-right: 10px;
+}
